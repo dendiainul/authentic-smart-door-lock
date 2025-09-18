@@ -4,7 +4,7 @@
 
 ### Tanggung Jawab (2 orang dari tim pagi)
 - Setup Node.js/Express server
-- Create fake data generators
+- Create sample data generators
 - Mock semua API endpoints
 - Testing environment configuration
 
@@ -36,7 +36,7 @@ GET /api/notifications
 POST /api/notifications/mark-read
 ```
 
-### Mock Data Structure
+### Sample Data Structure
 ```
 User: { id, name, email, role, face_registered, created_at }
 Access Log: { id, user_id, action, timestamp, success, method }
@@ -47,7 +47,7 @@ Notification: { id, type, message, read, created_at }
 ### Technology Stack
 - Node.js + Express
 - JSON file storage (no real database)
-- Faker.js untuk generate data
+- Faker.js untuk generate sample data
 - Socket.io untuk real-time simulation
 - CORS enabled untuk Android testing
 
