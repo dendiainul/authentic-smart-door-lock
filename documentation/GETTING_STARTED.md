@@ -306,9 +306,9 @@ git push origin [branch-name]
 ## Checklist Sebelum Mulai Development
 
 ### Tim Pagi
-- [ ] Android Studio installed dan configured
-- [ ] Node.js installed untuk mock API
-- [ ] Clone repository dan setup git config
+- [✔] Android Studio installed dan configured
+- [✔] Node.js installed untuk mock API
+- [✔] Clone repository dan setup git config
 - [ ] Create development branches
 - [ ] Setup mock API server
 - [ ] Read API contract documentation
