@@ -1,85 +1,46 @@
-# Web Admin Dashboard - Tim Malam
+# Getting Started with Create React App
 
-## Admin Panel untuk Smart Door Management
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Tanggung Jawab (3 orang dari tim malam)
-- React/Vue.js frontend development
-- Responsive web design
-- Real-time dashboard implementation
-- Admin interface untuk system management
-- Integration dengan production API
+## Available Scripts
 
-### Fitur Utama
-```
-Dashboard Overview:
-- Door status real-time
-- Live camera feed
-- Recent access activities
-- System health monitoring
-- Quick stats & metrics
+In the project directory, you can run:
 
-User Management:
-- View all registered users
-- Add/edit/delete users
-- Face registration management
-- Role assignment (Owner/User)
-- Bulk user operations
+### `npm start`
 
-Access Control:
-- Door lock/unlock controls
-- Emergency access override
-- Scheduled lock/unlock
-- Access permissions management
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-History & Analytics:
-- Access logs dengan filter
-- User activity reports
-- Security incident reports
-- Export data (PDF/CSV/Excel)
-- Visual analytics & charts
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Camera Management:
-- Live streaming interface
-- Recording playback
-- Motion detection settings
-- Storage management
-- Camera quality settings
+### `npm test`
 
-System Settings:
-- Door lock configurations
-- Notification preferences
-- Security settings
-- Backup & restore
-- System maintenance
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Technology Stack
-- React.js dengan TypeScript
-- Material-UI atau Ant Design
-- Chart.js untuk visualisasi
-- Socket.io client untuk real-time
-- Axios untuk API calls
-- React Router untuk navigation
-- Redux/Context untuk state management
+### `npm run build`
 
-### Responsive Design
-- Desktop-first approach
-- Tablet & mobile compatibility
-- Progressive Web App (PWA) capable
-- Dark/light theme support
-- Accessibility compliance
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Integration Features
-- Real-time sync dengan Android app
-- WebSocket connection untuk live updates
-- API integration dengan production backend
-- File upload untuk bulk operations
-- Print-friendly reports
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Development Guidelines
-- Component-based architecture
-- Reusable UI components
-- Error boundary implementation
-- Loading states & skeleton screens
-- Form validation & feedback
-- Cross-browser compatibility testing
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
