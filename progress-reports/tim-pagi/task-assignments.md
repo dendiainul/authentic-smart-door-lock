@@ -6,42 +6,42 @@
 ### Android App Core Features (4 orang)
 
 #### Authentication & User Management
-- **Assigned to:** [Nama GitHub username]
+- **Assigned to:** @fizzxyz
 - **Tasks:** Google Sign-In, user profile, authentication flow
-- **Status:** [Not Started / In Progress / Complete]
-- **Deadline:** [Week target]
+- **Status:**  In Progress
+- **Deadline:** 20 October 
 
 #### Dashboard & Door Control
-- **Assigned to:** [Nama GitHub username]  
+- **Assigned to:** @afifahfathonah
 - **Tasks:** Main dashboard UI, door lock/unlock controls, status display
-- **Status:** [Not Started / In Progress / Complete]
-- **Deadline:** [Week target]
+- **Status:** In Progress
+- **Deadline:** 26 October
 
 #### Camera Integration
-- **Assigned to:** [Nama GitHub username]
+- **Assigned to:** thariq24
 - **Tasks:** Live camera view, capture functionality, video streaming
-- **Status:** [Not Started / In Progress / Complete] 
-- **Deadline:** [Week target]
+- **Status:** In Progress 
+- **Deadline:** 03 November
 
 #### Local Storage & Offline Mode
-- **Assigned to:** [Nama GitHub username]
+- **Assigned to:** @navitadamayantisyarif
 - **Tasks:** Room database, local caching, offline functionality
-- **Status:** [Not Started / In Progress / Complete]
-- **Deadline:** [Week target]
+- **Status:** Not Started 
+- **Deadline:** 10 November
 
 ### Mock Backend API (2 orang)
 
 #### API Server & Endpoints
-- **Assigned to:** [Nama GitHub username]
+- **Assigned to:** @geannnnn
 - **Tasks:** Express server, API routes, authentication middleware
-- **Status:** [Not Started / In Progress / Complete]
-- **Deadline:** [Week target]
+- **Status:** Done
+- **Deadline:** 19 October
 
 #### Sample Data & Testing
-- **Assigned to:** [Nama GitHub username]
+- **Assigned to:** @putriput15
 - **Tasks:** Sample data generation, API testing, documentation
-- **Status:** [Not Started / In Progress / Complete]
-- **Deadline:** [Week target]
+- **Status:** Done 
+- **Deadline:** 19 October
 
 ## Assignment Changes History
 **Tim Pagi: Log perubahan assignment di sini**
@@ -54,8 +54,12 @@
 
 | Member | Android Dev | Kotlin | Backend | API Design | UI/UX |
 |--------|-------------|---------|---------|------------|-------|
-| [username] | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ | ⭐⭐ |
-| [username] | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐ |
+| @fizzxyz | ⭐ | ⭐ | ⭐⭐ | ⭐⭐ | ⭐ |
+| @afifahfathonah | ⭐ | ⭐ | ⭐ | ⭐ | ⭐⭐ |
+| @thariq24 | ⭐ | ⭐ | ⭐⭐ | ⭐| ⭐ |
+| @navitadamayantisyarif | ⭐ | ⭐ | ⭐ | ⭐ | ⭐⭐⭐ |
+| @geannnnn | ⭐ | ⭐ | ⭐⭐ | ⭐ | ⭐⭐ |
+| @putriput16 | ⭐ | ⭐ | ⭐ | ⭐ | ⭐⭐⭐ | 
 
 Rating: ⭐ = Beginner, ⭐⭐ = Intermediate, ⭐⭐⭐ = Advanced
 
@@ -67,5 +71,5 @@ Rating: ⭐ = Beginner, ⭐⭐ = Intermediate, ⭐⭐⭐ = Advanced
 - [Shared components that need discussion]
 
 ---
-**Last Updated:** [Date]  
-**Updated By:** [GitHub username]
+**Last Updated:** 20-October-2025 
+**Updated By:** @fizzxyz
