@@ -1,0 +1,9 @@
+<resources>
+    <!-- Testing Google Client ID - Replace with your own -->
+    <string name="default_web_client_id"></string>
+
+    <!-- Backup testing IDs if above doesn't work -->
+    <!-- <string name="default_web_client_id">YOUR_ACTUAL_CLIENT_ID_HERE</string> -->
+</resources>
+
+
