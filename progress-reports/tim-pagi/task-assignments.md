@@ -34,13 +34,13 @@
 #### API Server & Endpoints
 - **Assigned to:** @geannnnn
 - **Tasks:** Express server, API routes, authentication middleware
-- **Status:** In Progress 
+- **Status:** Done
 - **Deadline:** 19 October
 
 #### Sample Data & Testing
 - **Assigned to:** @putriput15
 - **Tasks:** Sample data generation, API testing, documentation
-- **Status:** In Progress 
+- **Status:** Done 
 - **Deadline:** 19 October
 
 ## Assignment Changes History
@@ -71,5 +71,5 @@ Rating: ⭐ = Beginner, ⭐⭐ = Intermediate, ⭐⭐⭐ = Advanced
 - [Shared components that need discussion]
 
 ---
-**Last Updated:** 17-October-2025 
+**Last Updated:** 20-October-2025 
 **Updated By:** @fizzxyz
