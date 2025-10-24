@@ -33,7 +33,7 @@ object StorageNetworkModule {
     @Singleton
     fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("http://192.168.110.160:3000/api/")
+            .baseUrl("http://10.143.141.163:3000/api/")
             .client(okHttpClient)
             .addConverterFactory(GsonConverterFactory.create())
             .build()

@@ -1,0 +1,9 @@
+<resources>
+    <!-- Testing Google Client ID - Replace with your own -->
+    <string name="default_web_client_id">904749622966-5u5875kdik0vir2v8monrjja972f8ud0.apps.googleusercontent.com</string>
+
+    <!-- Backup testing IDs if above doesn't work -->
+    <!-- <string name="default_web_client_id">YOUR_ACTUAL_CLIENT_ID_HERE</string> -->
+</resources>
+
+
