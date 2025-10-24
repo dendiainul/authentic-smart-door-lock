@@ -1,0 +1,2146 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "google_id": "8b80e686-0ab1-4ba3-9dd4-187b5e13483f",
+      "name": "Hafiz Atama Romadhoni",
+      "email": "hafizganzzxd@gmail.com",
+      "role": "admin",
+      "face_registered": false,
+      "created_at": "2023-01-07T12:18:16.315Z",
+      "phone": "+62991348456",
+      "avatar": "https://randomuser.me/api/portraits/men/20.jpg"
+    },
+    {
+      "id": 2,
+      "google_id": "4051eb64-1869-4f6e-ad0d-75f7d872288f",
+      "name": "Ilham Hidayat",
+      "email": "ilham.hidayat@gmail.com",
+      "role": "user",
+      "face_registered": true,
+      "created_at": "2024-09-02T12:33:04.531Z",
+      "phone": "+62120956485",
+      "avatar": "https://randomuser.me/api/portraits/men/43.jpg"
+    },
+    {
+      "id": 3,
+      "google_id": "0e8ee093-7f22-4afd-867e-923fe1b23e52",
+      "name": "Rizki Santoso",
+      "email": "rizki.santoso@gmail.com",
+      "role": "admin",
+      "face_registered": true,
+      "created_at": "2024-12-06T14:11:55.249Z",
+      "phone": "+62392104557",
+      "avatar": "https://randomuser.me/api/portraits/men/64.jpg"
+    },
+    {
+      "id": 4,
+      "google_id": "ad6604c3-e727-4c4a-be21-b211a9420d49",
+      "name": "Vera Rahayu",
+      "email": "vera.rahayu@gmail.com",
+      "role": "admin",
+      "face_registered": false,
+      "created_at": "2023-10-26T01:09:58.562Z",
+      "phone": "+62195238960",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg"
+    },
+    {
+      "id": 5,
+      "google_id": "f6804f96-f0ec-4332-ab4a-4192186041de",
+      "name": "Oka Maharani",
+      "email": "oka.maharani@gmail.com",
+      "role": "user",
+      "face_registered": true,
+      "created_at": "2023-09-05T00:18:46.151Z",
+      "phone": "+62799809572",
+      "avatar": "https://randomuser.me/api/portraits/women/99.jpg"
+    },
+    {
+      "id": 6,
+      "google_id": "2f25c449-d471-4cc8-a992-db6d6adaff68",
+      "name": "Sinta Suryanto",
+      "email": "sinta.suryanto@gmail.com",
+      "role": "admin",
+      "face_registered": false,
+      "created_at": "2025-05-03T13:35:45.869Z",
+      "phone": "+62965570487",
+      "avatar": "https://randomuser.me/api/portraits/women/41.jpg"
+    },
+    {
+      "id": 7,
+      "google_id": "74d68a9b-13f1-4177-a4fd-13d7dddf9b88",
+      "name": "Tika Susanto",
+      "email": "tika.susanto@gmail.com",
+      "role": "user",
+      "face_registered": true,
+      "created_at": "2025-03-24T06:39:51.037Z",
+      "phone": "+62204844758",
+      "avatar": "https://randomuser.me/api/portraits/women/19.jpg"
+    },
+    {
+      "id": 8,
+      "google_id": "f139a7ff-67bf-4f55-87ef-3a7b85e3ee2b",
+      "name": "Laila Setiawan",
+      "email": "laila.setiawan@gmail.com",
+      "role": "admin",
+      "face_registered": false,
+      "created_at": "2025-01-27T22:57:53.123Z",
+      "phone": "+62954840807",
+      "avatar": "https://randomuser.me/api/portraits/women/0.jpg"
+    },
+    {
+      "id": 9,
+      "google_id": "06246511-3403-4ee5-8834-072613b23ae2",
+      "name": "Okta Wati",
+      "email": "okta.wati@gmail.com",
+      "role": "admin",
+      "face_registered": true,
+      "created_at": "2024-04-07T13:07:13.940Z",
+      "phone": "+62211630659",
+      "avatar": "https://randomuser.me/api/portraits/men/73.jpg"
+    },
+    {
+      "id": 10,
+      "google_id": "0e2b4858-f2e5-494d-b81f-fda8d94625e9",
+      "name": "Putri Firmansyah",
+      "email": "putri.firmansyah@gmail.com",
+      "role": "user",
+      "face_registered": true,
+      "created_at": "2024-08-05T12:50:11.634Z",
+      "phone": "+62180858487",
+      "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 11,
+      "google_id": "74e5b4b2-b544-486a-af16-ca898c4edba0",
+      "name": "Zaki Lestari",
+      "email": "zaki.lestari@gmail.com",
+      "role": "admin",
+      "face_registered": true,
+      "created_at": "2024-03-08T04:21:24.076Z",
+      "phone": "+62188568175",
+      "avatar": "https://randomuser.me/api/portraits/men/83.jpg"
+    },
+    {
+      "id": 12,
+      "google_id": "54d78b9a-d5e7-461e-85cf-98bdf46f107e",
+      "name": "Yoga Suryanto",
+      "email": "yoga.suryanto@gmail.com",
+      "role": "admin",
+      "face_registered": true,
+      "created_at": "2023-11-24T18:36:48.448Z",
+      "phone": "+62625852958",
+      "avatar": "https://randomuser.me/api/portraits/men/25.jpg"
+    },
+    {
+      "id": 13,
+      "google_id": "f82d2e98-4193-4782-bd3e-7218eff101ca",
+      "name": "Nurul Handoko",
+      "email": "nurul.handoko@gmail.com",
+      "role": "user",
+      "face_registered": true,
+      "created_at": "2025-01-20T09:01:31.104Z",
+      "phone": "+62156712349",
+      "avatar": "https://randomuser.me/api/portraits/women/78.jpg"
+    },
+    {
+      "id": 14,
+      "google_id": "bdc9bc9d-4b45-4346-9620-8aff3c42faae",
+      "name": "Nina Hidayat",
+      "email": "nina.hidayat@gmail.com",
+      "role": "admin",
+      "face_registered": true,
+      "created_at": "2025-09-01T02:23:49.797Z",
+      "phone": "+62803872182",
+      "avatar": "https://randomuser.me/api/portraits/men/46.jpg"
+    },
+    {
+      "id": 15,
+      "google_id": "ff6833d8-f761-47f4-b771-4f5f81d05325",
+      "name": "Wira Santoso",
+      "email": "wira.santoso@gmail.com",
+      "role": "user",
+      "face_registered": true,
+      "created_at": "2025-01-11T17:43:18.487Z",
+      "phone": "+62258150135",
+      "avatar": "https://randomuser.me/api/portraits/men/72.jpg"
+    }
+  ],
+  "doors": [
+    {
+      "id": 1,
+      "name": "Pintu Workshop 1",
+      "location": "Gedung Aula Lantai 2 Ruang Auditorium",
+      "locked": true,
+      "battery_level": 58,
+      "last_update": "2025-10-23T11:12:41.434Z",
+      "wifi_strength": "Excellent",
+      "camera_active": true
+    },
+    {
+      "id": 2,
+      "name": "Pintu Ruang Kelas 1",
+      "location": "Gedung Riset Lantai 2 Ruang 210",
+      "locked": true,
+      "battery_level": 74,
+      "last_update": "2025-10-23T13:17:46.357Z",
+      "wifi_strength": "Fair",
+      "camera_active": true
+    },
+    {
+      "id": 3,
+      "name": "Pintu Kantin",
+      "location": "Gedung Teknik Lantai 2 Ruang 202",
+      "locked": true,
+      "battery_level": 20,
+      "last_update": "2025-10-23T11:12:41.434Z",
+      "wifi_strength": "Excellent",
+      "camera_active": true
+    },
+    {
+      "id": 4,
+      "name": "Pintu Ruang Kelas 2",
+      "location": "Gedung Informatika Lantai 3 Ruang 305",
+      "locked": true,
+      "battery_level": 59,
+      "last_update": "2025-10-23T11:12:41.434Z",
+      "wifi_strength": "Excellent",
+      "camera_active": true
+    },
+    {
+      "id": 5,
+      "name": "Pintu Ruang Administrasi",
+      "location": "Gedung Administrasi Lantai 1",
+      "locked": true,
+      "battery_level": 71,
+      "last_update": "2025-10-24T04:13:52.540Z",
+      "wifi_strength": "Fair",
+      "camera_active": true
+    },
+    {
+      "id": 6,
+      "name": "Pintu Kantin",
+      "location": "Gedung Informatika Lantai 3 Ruang 305",
+      "locked": false,
+      "battery_level": 24,
+      "last_update": "2025-10-23T12:54:05.602Z",
+      "wifi_strength": "Fair",
+      "camera_active": false
+    },
+    {
+      "id": 7,
+      "name": "Pintu Kantin",
+      "location": "Gedung Teknik Lantai 1 Ruang 101",
+      "locked": true,
+      "battery_level": 94,
+      "last_update": "2025-10-23T11:12:41.434Z",
+      "wifi_strength": "Excellent",
+      "camera_active": true
+    },
+    {
+      "id": 8,
+      "name": "Pintu Ruang Kelas 1",
+      "location": "Gedung Informatika Lantai 3 Ruang 305",
+      "locked": true,
+      "battery_level": 66,
+      "last_update": "2025-10-23T11:12:41.434Z",
+      "wifi_strength": "Excellent",
+      "camera_active": true
+    },
+    {
+      "id": 9,
+      "name": "Pintu Perpustakaan",
+      "location": "Gedung Informatika Lantai 3 Ruang 305",
+      "locked": false,
+      "battery_level": 75,
+      "last_update": "2025-10-23T11:12:41.434Z",
+      "wifi_strength": "Good",
+      "camera_active": true
+    },
+    {
+      "id": 10,
+      "name": "Pintu Ruang Dosen",
+      "location": "Gedung Informatika Lantai 3 Ruang 305",
+      "locked": true,
+      "battery_level": 4,
+      "last_update": "2025-10-23T11:12:41.434Z",
+      "wifi_strength": "Excellent",
+      "camera_active": true
+    }
+  ],
+  "accessLogs": [
+    {
+      "id": 102,
+      "user_id": 1,
+      "door_id": 5,
+      "action": "kunci",
+      "timestamp": "2025-10-24T04:13:52.540Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "192.168.1.36",
+      "camera_capture_id": null,
+      "user": {
+        "id": 1,
+        "name": "Hafiz Atama Romadhoni",
+        "email": "hafizganzzxd@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/men/20.jpg",
+        "role": "admin",
+        "face_registered": false
+      },
+      "door": {
+        "id": 5,
+        "name": "Pintu Ruang Administrasi",
+        "location": "Gedung Administrasi Lantai 1",
+        "locked": true,
+        "battery_level": 71,
+        "last_update": "2025-10-24T04:13:52.540Z",
+        "wifi_strength": "Fair",
+        "camera_active": true
+      },
+      "camera_capture": null
+    },
+    {
+      "id": 101,
+      "user_id": 1,
+      "door_id": 5,
+      "action": "buka",
+      "timestamp": "2025-10-24T04:07:37.103Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "192.168.1.172",
+      "camera_capture_id": null,
+      "user": {
+        "id": 1,
+        "name": "Hafiz Atama Romadhoni",
+        "email": "hafizganzzxd@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/men/20.jpg",
+        "role": "admin",
+        "face_registered": false
+      },
+      "door": {
+        "id": 5,
+        "name": "Pintu Ruang Administrasi",
+        "location": "Gedung Administrasi Lantai 1",
+        "locked": false,
+        "battery_level": 71,
+        "last_update": "2025-10-24T04:07:37.102Z",
+        "wifi_strength": "Fair",
+        "camera_active": true
+      },
+      "camera_capture": null
+    },
+    {
+      "id": 75,
+      "user_id": 8,
+      "door_id": 2,
+      "action": "tutup",
+      "timestamp": "2025-10-23T03:23:33.862Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "96.183.64.164",
+      "camera_capture_id": null
+    },
+    {
+      "id": 72,
+      "user_id": 12,
+      "door_id": 9,
+      "action": "buka",
+      "timestamp": "2025-10-22T23:43:54.045Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "109.233.11.54",
+      "camera_capture_id": 7
+    },
+    {
+      "id": 38,
+      "user_id": 3,
+      "door_id": 8,
+      "action": "buka",
+      "timestamp": "2025-10-22T06:33:25.359Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "147.116.140.169",
+      "camera_capture_id": null
+    },
+    {
+      "id": 2,
+      "user_id": 10,
+      "door_id": 7,
+      "action": "buka",
+      "timestamp": "2025-10-22T05:13:26.938Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "81.86.27.155",
+      "camera_capture_id": 10
+    },
+    {
+      "id": 3,
+      "user_id": 12,
+      "door_id": 9,
+      "action": "buka",
+      "timestamp": "2025-10-22T03:35:14.049Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "243.43.191.5",
+      "camera_capture_id": 30
+    },
+    {
+      "id": 89,
+      "user_id": 10,
+      "door_id": 1,
+      "action": "tutup",
+      "timestamp": "2025-10-22T01:53:13.591Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "181.55.250.115",
+      "camera_capture_id": 7
+    },
+    {
+      "id": 43,
+      "user_id": 12,
+      "door_id": 6,
+      "action": "buka",
+      "timestamp": "2025-10-22T01:11:27.195Z",
+      "success": false,
+      "method": "mobile_app",
+      "ip_address": "232.89.43.146",
+      "camera_capture_id": 1
+    },
+    {
+      "id": 77,
+      "user_id": 4,
+      "door_id": 5,
+      "action": "buka",
+      "timestamp": "2025-10-20T10:48:43.208Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "149.178.56.29",
+      "camera_capture_id": 30
+    },
+    {
+      "id": 29,
+      "user_id": 8,
+      "door_id": 5,
+      "action": "tutup",
+      "timestamp": "2025-10-19T19:47:02.198Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "159.236.183.248",
+      "camera_capture_id": 6
+    },
+    {
+      "id": 14,
+      "user_id": 15,
+      "door_id": 9,
+      "action": "buka",
+      "timestamp": "2025-10-19T13:56:19.060Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "33.219.227.227",
+      "camera_capture_id": 36
+    },
+    {
+      "id": 99,
+      "user_id": 3,
+      "door_id": 8,
+      "action": "tutup",
+      "timestamp": "2025-10-19T11:28:27.292Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "66.111.89.150",
+      "camera_capture_id": 5
+    },
+    {
+      "id": 86,
+      "user_id": 14,
+      "door_id": 2,
+      "action": "buka",
+      "timestamp": "2025-10-18T18:50:13.723Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "222.144.171.193",
+      "camera_capture_id": 11
+    },
+    {
+      "id": 53,
+      "user_id": 7,
+      "door_id": 1,
+      "action": "tutup",
+      "timestamp": "2025-10-18T15:45:22.732Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "227.127.160.185",
+      "camera_capture_id": 37
+    },
+    {
+      "id": 64,
+      "user_id": 4,
+      "door_id": 9,
+      "action": "tutup",
+      "timestamp": "2025-10-18T02:37:04.970Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "203.3.230.162",
+      "camera_capture_id": 37
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "door_id": 3,
+      "action": "buka",
+      "timestamp": "2025-10-17T09:12:50.494Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "95.130.47.218",
+      "camera_capture_id": 30
+    },
+    {
+      "id": 52,
+      "user_id": 2,
+      "door_id": 1,
+      "action": "tutup",
+      "timestamp": "2025-10-17T08:33:13.607Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "71.54.189.41",
+      "camera_capture_id": 5
+    },
+    {
+      "id": 8,
+      "user_id": 3,
+      "door_id": 4,
+      "action": "tutup",
+      "timestamp": "2025-10-17T06:13:58.397Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "171.64.252.119",
+      "camera_capture_id": null
+    },
+    {
+      "id": 74,
+      "user_id": 5,
+      "door_id": 3,
+      "action": "tutup",
+      "timestamp": "2025-10-17T05:17:36.529Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "110.39.36.158",
+      "camera_capture_id": 19
+    },
+    {
+      "id": 78,
+      "user_id": 8,
+      "door_id": 5,
+      "action": "buka",
+      "timestamp": "2025-10-16T19:07:11.692Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "91.226.171.252",
+      "camera_capture_id": null
+    },
+    {
+      "id": 23,
+      "user_id": 8,
+      "door_id": 5,
+      "action": "tutup",
+      "timestamp": "2025-10-16T15:07:30.058Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "164.32.42.105",
+      "camera_capture_id": null
+    },
+    {
+      "id": 20,
+      "user_id": 3,
+      "door_id": 7,
+      "action": "tutup",
+      "timestamp": "2025-10-16T12:12:29.608Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "189.107.142.7",
+      "camera_capture_id": null
+    },
+    {
+      "id": 95,
+      "user_id": 12,
+      "door_id": 7,
+      "action": "tutup",
+      "timestamp": "2025-10-16T08:20:33.652Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "216.246.64.11",
+      "camera_capture_id": 28
+    },
+    {
+      "id": 83,
+      "user_id": 3,
+      "door_id": 9,
+      "action": "tutup",
+      "timestamp": "2025-10-16T07:30:15.707Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "161.140.100.18",
+      "camera_capture_id": 17
+    },
+    {
+      "id": 39,
+      "user_id": 3,
+      "door_id": 3,
+      "action": "tutup",
+      "timestamp": "2025-10-15T20:22:06.884Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "182.194.217.14",
+      "camera_capture_id": 30
+    },
+    {
+      "id": 80,
+      "user_id": 7,
+      "door_id": 8,
+      "action": "tutup",
+      "timestamp": "2025-10-15T15:54:10.415Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "170.159.21.185",
+      "camera_capture_id": 36
+    },
+    {
+      "id": 90,
+      "user_id": 3,
+      "door_id": 5,
+      "action": "buka",
+      "timestamp": "2025-10-15T08:09:39.826Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "180.156.201.37",
+      "camera_capture_id": null
+    },
+    {
+      "id": 47,
+      "user_id": 4,
+      "door_id": 3,
+      "action": "tutup",
+      "timestamp": "2025-10-15T00:37:13.963Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "247.197.2.252",
+      "camera_capture_id": null
+    },
+    {
+      "id": 87,
+      "user_id": 15,
+      "door_id": 2,
+      "action": "buka",
+      "timestamp": "2025-10-14T17:42:10.992Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "36.147.114.236",
+      "camera_capture_id": 3
+    },
+    {
+      "id": 51,
+      "user_id": 4,
+      "door_id": 3,
+      "action": "tutup",
+      "timestamp": "2025-10-14T10:38:01.872Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "116.199.175.109",
+      "camera_capture_id": 40
+    },
+    {
+      "id": 27,
+      "user_id": 5,
+      "door_id": 9,
+      "action": "buka",
+      "timestamp": "2025-10-14T04:03:52.124Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "178.18.74.123",
+      "camera_capture_id": 23
+    },
+    {
+      "id": 91,
+      "user_id": 12,
+      "door_id": 10,
+      "action": "tutup",
+      "timestamp": "2025-10-13T23:39:17.120Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "195.155.151.223",
+      "camera_capture_id": 3
+    },
+    {
+      "id": 63,
+      "user_id": 3,
+      "door_id": 8,
+      "action": "tutup",
+      "timestamp": "2025-10-13T15:04:23.797Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "222.97.124.88",
+      "camera_capture_id": null
+    },
+    {
+      "id": 100,
+      "user_id": 4,
+      "door_id": 4,
+      "action": "buka",
+      "timestamp": "2025-10-13T14:46:33.006Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "45.162.149.161",
+      "camera_capture_id": 18
+    },
+    {
+      "id": 60,
+      "user_id": 13,
+      "door_id": 7,
+      "action": "buka",
+      "timestamp": "2025-10-13T05:38:37.861Z",
+      "success": false,
+      "method": "face_recognition",
+      "ip_address": "132.195.184.61",
+      "camera_capture_id": 22
+    },
+    {
+      "id": 71,
+      "user_id": 15,
+      "door_id": 5,
+      "action": "tutup",
+      "timestamp": "2025-10-13T03:46:52.297Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "123.201.185.49",
+      "camera_capture_id": 33
+    },
+    {
+      "id": 33,
+      "user_id": 11,
+      "door_id": 5,
+      "action": "tutup",
+      "timestamp": "2025-10-13T01:35:19.252Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "102.166.173.184",
+      "camera_capture_id": 29
+    },
+    {
+      "id": 18,
+      "user_id": 5,
+      "door_id": 1,
+      "action": "buka",
+      "timestamp": "2025-10-12T21:38:22.426Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "104.85.36.43",
+      "camera_capture_id": 10
+    },
+    {
+      "id": 36,
+      "user_id": 9,
+      "door_id": 5,
+      "action": "tutup",
+      "timestamp": "2025-10-12T20:44:39.441Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "246.115.69.8",
+      "camera_capture_id": null
+    },
+    {
+      "id": 17,
+      "user_id": 2,
+      "door_id": 8,
+      "action": "tutup",
+      "timestamp": "2025-10-12T04:46:00.497Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "60.253.63.235",
+      "camera_capture_id": 9
+    },
+    {
+      "id": 32,
+      "user_id": 3,
+      "door_id": 8,
+      "action": "tutup",
+      "timestamp": "2025-10-11T16:17:04.053Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "77.162.115.171",
+      "camera_capture_id": 19
+    },
+    {
+      "id": 62,
+      "user_id": 1,
+      "door_id": 3,
+      "action": "buka",
+      "timestamp": "2025-10-11T07:05:05.574Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "139.177.69.5",
+      "camera_capture_id": null
+    },
+    {
+      "id": 73,
+      "user_id": 9,
+      "door_id": 9,
+      "action": "tutup",
+      "timestamp": "2025-10-10T19:00:07.646Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "129.56.173.25",
+      "camera_capture_id": 16
+    },
+    {
+      "id": 30,
+      "user_id": 7,
+      "door_id": 4,
+      "action": "buka",
+      "timestamp": "2025-10-10T16:16:41.925Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "193.154.167.223",
+      "camera_capture_id": 7
+    },
+    {
+      "id": 85,
+      "user_id": 9,
+      "door_id": 7,
+      "action": "buka",
+      "timestamp": "2025-10-10T11:52:04.628Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "53.161.223.65",
+      "camera_capture_id": 3
+    },
+    {
+      "id": 82,
+      "user_id": 13,
+      "door_id": 2,
+      "action": "buka",
+      "timestamp": "2025-10-10T11:35:30.115Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "181.68.225.218",
+      "camera_capture_id": 33
+    },
+    {
+      "id": 84,
+      "user_id": 2,
+      "door_id": 1,
+      "action": "tutup",
+      "timestamp": "2025-10-10T11:10:00.881Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "53.43.138.188",
+      "camera_capture_id": 10
+    },
+    {
+      "id": 49,
+      "user_id": 2,
+      "door_id": 9,
+      "action": "tutup",
+      "timestamp": "2025-10-10T10:04:57.069Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "187.54.185.114",
+      "camera_capture_id": 5
+    },
+    {
+      "id": 46,
+      "user_id": 11,
+      "door_id": 1,
+      "action": "buka",
+      "timestamp": "2025-10-10T07:47:42.645Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "232.108.152.123",
+      "camera_capture_id": 19
+    },
+    {
+      "id": 69,
+      "user_id": 11,
+      "door_id": 4,
+      "action": "buka",
+      "timestamp": "2025-10-10T05:24:24.007Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "111.91.78.169",
+      "camera_capture_id": null
+    },
+    {
+      "id": 1,
+      "user_id": 9,
+      "door_id": 7,
+      "action": "buka",
+      "timestamp": "2025-10-09T20:00:07.516Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "5.241.53.131",
+      "camera_capture_id": 24
+    },
+    {
+      "id": 34,
+      "user_id": 10,
+      "door_id": 9,
+      "action": "tutup",
+      "timestamp": "2025-10-09T16:24:24.378Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "80.194.56.46",
+      "camera_capture_id": 8
+    },
+    {
+      "id": 70,
+      "user_id": 3,
+      "door_id": 5,
+      "action": "tutup",
+      "timestamp": "2025-10-09T16:04:26.670Z",
+      "success": false,
+      "method": "mobile_app",
+      "ip_address": "55.29.12.177",
+      "camera_capture_id": 29
+    },
+    {
+      "id": 42,
+      "user_id": 13,
+      "door_id": 5,
+      "action": "buka",
+      "timestamp": "2025-10-09T06:37:35.414Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "163.68.175.163",
+      "camera_capture_id": 19
+    },
+    {
+      "id": 9,
+      "user_id": 2,
+      "door_id": 5,
+      "action": "buka",
+      "timestamp": "2025-10-08T22:09:21.934Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "185.244.193.10",
+      "camera_capture_id": null
+    },
+    {
+      "id": 96,
+      "user_id": 2,
+      "door_id": 2,
+      "action": "tutup",
+      "timestamp": "2025-10-08T03:46:07.277Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "225.166.204.178",
+      "camera_capture_id": 34
+    },
+    {
+      "id": 12,
+      "user_id": 13,
+      "door_id": 2,
+      "action": "tutup",
+      "timestamp": "2025-10-07T16:01:42.919Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "132.168.56.90",
+      "camera_capture_id": null
+    },
+    {
+      "id": 93,
+      "user_id": 9,
+      "door_id": 4,
+      "action": "tutup",
+      "timestamp": "2025-10-07T15:08:37.335Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "145.111.165.233",
+      "camera_capture_id": 1
+    },
+    {
+      "id": 37,
+      "user_id": 6,
+      "door_id": 10,
+      "action": "buka",
+      "timestamp": "2025-10-07T11:51:51.196Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "134.36.237.84",
+      "camera_capture_id": 6
+    },
+    {
+      "id": 57,
+      "user_id": 10,
+      "door_id": 7,
+      "action": "tutup",
+      "timestamp": "2025-10-07T03:54:15.133Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "86.120.29.162",
+      "camera_capture_id": 10
+    },
+    {
+      "id": 66,
+      "user_id": 4,
+      "door_id": 8,
+      "action": "buka",
+      "timestamp": "2025-10-06T04:58:26.470Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "201.61.210.139",
+      "camera_capture_id": null
+    },
+    {
+      "id": 28,
+      "user_id": 15,
+      "door_id": 2,
+      "action": "buka",
+      "timestamp": "2025-10-06T02:59:09.705Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "133.58.212.51",
+      "camera_capture_id": 21
+    },
+    {
+      "id": 25,
+      "user_id": 1,
+      "door_id": 9,
+      "action": "tutup",
+      "timestamp": "2025-10-06T02:45:34.973Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "190.65.116.87",
+      "camera_capture_id": null
+    },
+    {
+      "id": 94,
+      "user_id": 1,
+      "door_id": 8,
+      "action": "tutup",
+      "timestamp": "2025-10-05T18:04:55.373Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "116.92.107.240",
+      "camera_capture_id": null
+    },
+    {
+      "id": 79,
+      "user_id": 3,
+      "door_id": 5,
+      "action": "buka",
+      "timestamp": "2025-10-05T09:31:54.677Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "173.213.3.35",
+      "camera_capture_id": null
+    },
+    {
+      "id": 6,
+      "user_id": 2,
+      "door_id": 2,
+      "action": "tutup",
+      "timestamp": "2025-10-04T23:18:14.321Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "236.242.229.201",
+      "camera_capture_id": 17
+    },
+    {
+      "id": 15,
+      "user_id": 4,
+      "door_id": 10,
+      "action": "buka",
+      "timestamp": "2025-10-04T12:24:23.446Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "88.191.29.215",
+      "camera_capture_id": 14
+    },
+    {
+      "id": 22,
+      "user_id": 14,
+      "door_id": 1,
+      "action": "tutup",
+      "timestamp": "2025-10-03T15:39:41.868Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "90.23.94.142",
+      "camera_capture_id": 36
+    },
+    {
+      "id": 26,
+      "user_id": 11,
+      "door_id": 5,
+      "action": "buka",
+      "timestamp": "2025-10-03T14:02:54.667Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "250.191.158.3",
+      "camera_capture_id": null
+    },
+    {
+      "id": 92,
+      "user_id": 14,
+      "door_id": 4,
+      "action": "tutup",
+      "timestamp": "2025-10-03T10:49:17.568Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "179.125.184.28",
+      "camera_capture_id": 7
+    },
+    {
+      "id": 45,
+      "user_id": 12,
+      "door_id": 9,
+      "action": "buka",
+      "timestamp": "2025-10-03T06:42:32.509Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "158.92.140.226",
+      "camera_capture_id": 39
+    },
+    {
+      "id": 4,
+      "user_id": 2,
+      "door_id": 4,
+      "action": "tutup",
+      "timestamp": "2025-10-03T06:39:03.549Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "33.219.49.76",
+      "camera_capture_id": 18
+    },
+    {
+      "id": 16,
+      "user_id": 13,
+      "door_id": 2,
+      "action": "buka",
+      "timestamp": "2025-10-02T22:06:33.102Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "69.134.87.215",
+      "camera_capture_id": 36
+    },
+    {
+      "id": 81,
+      "user_id": 12,
+      "door_id": 9,
+      "action": "buka",
+      "timestamp": "2025-10-02T20:14:26.114Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "209.229.64.30",
+      "camera_capture_id": null
+    },
+    {
+      "id": 44,
+      "user_id": 3,
+      "door_id": 3,
+      "action": "buka",
+      "timestamp": "2025-10-02T18:34:17.636Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "42.162.155.191",
+      "camera_capture_id": null
+    },
+    {
+      "id": 98,
+      "user_id": 2,
+      "door_id": 3,
+      "action": "tutup",
+      "timestamp": "2025-10-01T16:36:41.405Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "119.14.242.13",
+      "camera_capture_id": null
+    },
+    {
+      "id": 31,
+      "user_id": 7,
+      "door_id": 7,
+      "action": "buka",
+      "timestamp": "2025-10-01T03:05:24.214Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "231.17.149.163",
+      "camera_capture_id": 16
+    },
+    {
+      "id": 24,
+      "user_id": 13,
+      "door_id": 10,
+      "action": "tutup",
+      "timestamp": "2025-09-30T19:02:44.877Z",
+      "success": false,
+      "method": "face_recognition",
+      "ip_address": "178.43.127.48",
+      "camera_capture_id": null
+    },
+    {
+      "id": 88,
+      "user_id": 9,
+      "door_id": 2,
+      "action": "tutup",
+      "timestamp": "2025-09-30T17:42:32.191Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "119.218.166.86",
+      "camera_capture_id": 7
+    },
+    {
+      "id": 58,
+      "user_id": 5,
+      "door_id": 1,
+      "action": "buka",
+      "timestamp": "2025-09-30T10:52:53.104Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "160.52.251.36",
+      "camera_capture_id": 30
+    },
+    {
+      "id": 59,
+      "user_id": 15,
+      "door_id": 9,
+      "action": "tutup",
+      "timestamp": "2025-09-30T05:32:28.504Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "42.210.14.250",
+      "camera_capture_id": null
+    },
+    {
+      "id": 76,
+      "user_id": 9,
+      "door_id": 6,
+      "action": "buka",
+      "timestamp": "2025-09-30T04:09:00.858Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "193.254.199.15",
+      "camera_capture_id": null
+    },
+    {
+      "id": 11,
+      "user_id": 8,
+      "door_id": 3,
+      "action": "buka",
+      "timestamp": "2025-09-29T19:28:42.936Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "105.131.68.192",
+      "camera_capture_id": 28
+    },
+    {
+      "id": 21,
+      "user_id": 2,
+      "door_id": 6,
+      "action": "buka",
+      "timestamp": "2025-09-28T08:36:19.061Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "30.227.34.210",
+      "camera_capture_id": null
+    },
+    {
+      "id": 19,
+      "user_id": 13,
+      "door_id": 4,
+      "action": "buka",
+      "timestamp": "2025-09-27T20:45:59.342Z",
+      "success": false,
+      "method": "mobile_app",
+      "ip_address": "227.14.7.67",
+      "camera_capture_id": null
+    },
+    {
+      "id": 97,
+      "user_id": 14,
+      "door_id": 10,
+      "action": "buka",
+      "timestamp": "2025-09-27T08:29:00.048Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "159.190.237.205",
+      "camera_capture_id": 11
+    },
+    {
+      "id": 68,
+      "user_id": 7,
+      "door_id": 3,
+      "action": "buka",
+      "timestamp": "2025-09-27T02:16:42.104Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "26.188.86.200",
+      "camera_capture_id": 29
+    },
+    {
+      "id": 40,
+      "user_id": 4,
+      "door_id": 9,
+      "action": "tutup",
+      "timestamp": "2025-09-26T23:28:04.792Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "236.238.204.251",
+      "camera_capture_id": 22
+    },
+    {
+      "id": 35,
+      "user_id": 3,
+      "door_id": 10,
+      "action": "tutup",
+      "timestamp": "2025-09-26T19:29:50.785Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "253.127.86.23",
+      "camera_capture_id": 26
+    },
+    {
+      "id": 5,
+      "user_id": 6,
+      "door_id": 7,
+      "action": "tutup",
+      "timestamp": "2025-09-25T15:27:23.787Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "134.208.115.30",
+      "camera_capture_id": 23
+    },
+    {
+      "id": 48,
+      "user_id": 12,
+      "door_id": 7,
+      "action": "buka",
+      "timestamp": "2025-09-25T13:37:16.170Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "44.50.118.127",
+      "camera_capture_id": 10
+    },
+    {
+      "id": 41,
+      "user_id": 2,
+      "door_id": 5,
+      "action": "tutup",
+      "timestamp": "2025-09-24T22:28:51.333Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "96.114.255.100",
+      "camera_capture_id": 10
+    },
+    {
+      "id": 13,
+      "user_id": 5,
+      "door_id": 5,
+      "action": "buka",
+      "timestamp": "2025-09-24T14:13:36.799Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "198.240.17.165",
+      "camera_capture_id": 20
+    },
+    {
+      "id": 55,
+      "user_id": 15,
+      "door_id": 4,
+      "action": "buka",
+      "timestamp": "2025-09-24T10:25:07.776Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "135.109.4.209",
+      "camera_capture_id": 12
+    },
+    {
+      "id": 67,
+      "user_id": 1,
+      "door_id": 5,
+      "action": "tutup",
+      "timestamp": "2025-09-24T06:00:25.223Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "224.203.200.158",
+      "camera_capture_id": 13
+    },
+    {
+      "id": 50,
+      "user_id": 2,
+      "door_id": 10,
+      "action": "tutup",
+      "timestamp": "2025-09-24T05:38:20.472Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "254.59.230.151",
+      "camera_capture_id": 4
+    },
+    {
+      "id": 61,
+      "user_id": 3,
+      "door_id": 1,
+      "action": "buka",
+      "timestamp": "2025-09-24T01:23:22.147Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "1.206.174.171",
+      "camera_capture_id": null
+    },
+    {
+      "id": 54,
+      "user_id": 10,
+      "door_id": 5,
+      "action": "buka",
+      "timestamp": "2025-09-24T01:13:40.191Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "8.209.45.89",
+      "camera_capture_id": 39
+    },
+    {
+      "id": 65,
+      "user_id": 2,
+      "door_id": 1,
+      "action": "buka",
+      "timestamp": "2025-09-24T01:12:30.633Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "244.215.27.42",
+      "camera_capture_id": 40
+    },
+    {
+      "id": 7,
+      "user_id": 4,
+      "door_id": 6,
+      "action": "buka",
+      "timestamp": "2025-09-23T22:31:57.432Z",
+      "success": true,
+      "method": "face_recognition",
+      "ip_address": "47.4.157.246",
+      "camera_capture_id": 39
+    },
+    {
+      "id": 56,
+      "user_id": 4,
+      "door_id": 1,
+      "action": "buka",
+      "timestamp": "2025-09-23T18:56:57.515Z",
+      "success": true,
+      "method": "mobile_app",
+      "ip_address": "14.227.87.16",
+      "camera_capture_id": 40
+    }
+  ],
+  "userDoor": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "door_id": 5,
+      "created_at": "2023-02-28T21:30:40.976Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "door_id": 10,
+      "created_at": "2024-02-28T01:12:35.355Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "door_id": 2,
+      "created_at": "2024-08-29T08:22:32.247Z"
+    },
+    {
+      "id": 1,
+      "user_id": 2,
+      "door_id": 7,
+      "created_at": "2024-11-15T07:32:02.336Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "door_id": 10,
+      "created_at": "2023-08-11T13:07:50.086Z"
+    },
+    {
+      "id": 1,
+      "user_id": 3,
+      "door_id": 1,
+      "created_at": "2025-01-23T12:00:01.940Z"
+    },
+    {
+      "id": 2,
+      "user_id": 3,
+      "door_id": 7,
+      "created_at": "2025-06-17T05:24:33.554Z"
+    },
+    {
+      "id": 1,
+      "user_id": 4,
+      "door_id": 8,
+      "created_at": "2024-05-11T02:14:05.373Z"
+    },
+    {
+      "id": 2,
+      "user_id": 4,
+      "door_id": 7,
+      "created_at": "2024-11-10T13:05:34.028Z"
+    },
+    {
+      "id": 1,
+      "user_id": 5,
+      "door_id": 7,
+      "created_at": "2024-01-10T16:09:25.044Z"
+    },
+    {
+      "id": 1,
+      "user_id": 6,
+      "door_id": 5,
+      "created_at": "2024-04-29T17:41:06.642Z"
+    },
+    {
+      "id": 2,
+      "user_id": 6,
+      "door_id": 3,
+      "created_at": "2024-08-17T16:12:35.157Z"
+    },
+    {
+      "id": 1,
+      "user_id": 7,
+      "door_id": 7,
+      "created_at": "2023-10-28T12:44:26.056Z"
+    },
+    {
+      "id": 2,
+      "user_id": 7,
+      "door_id": 10,
+      "created_at": "2024-08-29T13:45:39.526Z"
+    },
+    {
+      "id": 3,
+      "user_id": 7,
+      "door_id": 5,
+      "created_at": "2025-08-25T21:47:05.257Z"
+    },
+    {
+      "id": 1,
+      "user_id": 8,
+      "door_id": 7,
+      "created_at": "2023-02-01T21:38:13.564Z"
+    },
+    {
+      "id": 1,
+      "user_id": 9,
+      "door_id": 9,
+      "created_at": "2025-05-02T16:30:58.362Z"
+    },
+    {
+      "id": 2,
+      "user_id": 9,
+      "door_id": 5,
+      "created_at": "2024-06-09T07:30:00.932Z"
+    },
+    {
+      "id": 3,
+      "user_id": 9,
+      "door_id": 6,
+      "created_at": "2023-08-03T19:50:18.121Z"
+    },
+    {
+      "id": 1,
+      "user_id": 10,
+      "door_id": 4,
+      "created_at": "2024-08-13T23:51:41.894Z"
+    },
+    {
+      "id": 3,
+      "user_id": 10,
+      "door_id": 1,
+      "created_at": "2024-01-01T23:52:24.108Z"
+    },
+    {
+      "id": 1,
+      "user_id": 11,
+      "door_id": 7,
+      "created_at": "2023-04-21T11:26:37.667Z"
+    },
+    {
+      "id": 2,
+      "user_id": 11,
+      "door_id": 10,
+      "created_at": "2025-01-13T07:29:58.597Z"
+    },
+    {
+      "id": 1,
+      "user_id": 12,
+      "door_id": 3,
+      "created_at": "2025-10-15T13:05:16.165Z"
+    },
+    {
+      "id": 2,
+      "user_id": 12,
+      "door_id": 8,
+      "created_at": "2023-03-08T06:38:00.840Z"
+    },
+    {
+      "id": 1,
+      "user_id": 13,
+      "door_id": 5,
+      "created_at": "2023-01-03T04:39:39.612Z"
+    },
+    {
+      "id": 2,
+      "user_id": 13,
+      "door_id": 10,
+      "created_at": "2023-07-13T09:04:27.083Z"
+    },
+    {
+      "id": 1,
+      "user_id": 14,
+      "door_id": 4,
+      "created_at": "2025-02-28T01:37:59.554Z"
+    },
+    {
+      "id": 2,
+      "user_id": 14,
+      "door_id": 6,
+      "created_at": "2023-05-24T19:50:24.501Z"
+    },
+    {
+      "id": 1,
+      "user_id": 15,
+      "door_id": 5,
+      "created_at": "2023-12-28T01:14:32.751Z"
+    },
+    {
+      "id": 2,
+      "user_id": 15,
+      "door_id": 10,
+      "created_at": "2025-06-12T06:39:55.055Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 10,
+      "user_id": null,
+      "type": "camera_offline",
+      "message": "Kamera pintu Wira Santoso tidak terhubung",
+      "read": true,
+      "created_at": "2025-10-23T03:25:48.084Z"
+    },
+    {
+      "id": 25,
+      "user_id": null,
+      "type": "maintenance_required",
+      "message": "Perawatan rutin diperlukan untuk pintu Wira Santoso",
+      "read": true,
+      "created_at": "2025-10-23T01:53:29.405Z"
+    },
+    {
+      "id": 18,
+      "user_id": null,
+      "type": "maintenance_required",
+      "message": "Perawatan rutin diperlukan untuk pintu Laila Setiawan",
+      "read": true,
+      "created_at": "2025-10-22T23:41:47.073Z"
+    },
+    {
+      "id": 9,
+      "user_id": null,
+      "type": "maintenance_required",
+      "message": "Perawatan rutin diperlukan untuk pintu Hafiz Atama Romadhoni",
+      "read": true,
+      "created_at": "2025-10-22T15:41:52.179Z"
+    },
+    {
+      "id": 13,
+      "user_id": null,
+      "type": "low_battery",
+      "message": "Baterai pintu Zaki Lestari rendah (17%)",
+      "read": true,
+      "created_at": "2025-10-22T14:33:54.390Z"
+    },
+    {
+      "id": 14,
+      "user_id": null,
+      "type": "maintenance_required",
+      "message": "Perawatan rutin diperlukan untuk pintu Tika Susanto",
+      "read": false,
+      "created_at": "2025-10-21T15:48:11.961Z"
+    },
+    {
+      "id": 22,
+      "user_id": null,
+      "type": "low_battery",
+      "message": "Baterai pintu Nurul Handoko rendah (19%)",
+      "read": false,
+      "created_at": "2025-10-21T11:01:30.563Z"
+    },
+    {
+      "id": 20,
+      "user_id": null,
+      "type": "system_update",
+      "message": "Pembaruan sistem tersedia untuk pintu Laila Setiawan",
+      "read": false,
+      "created_at": "2025-10-21T08:28:52.562Z"
+    },
+    {
+      "id": 7,
+      "user_id": null,
+      "type": "low_battery",
+      "message": "Baterai pintu Laila Setiawan rendah (6%)",
+      "read": true,
+      "created_at": "2025-10-21T02:41:58.309Z"
+    },
+    {
+      "id": 12,
+      "user_id": 11,
+      "type": "access_granted",
+      "message": "Zaki Lestari berhasil membuka pintu Pintu Kantin",
+      "read": false,
+      "created_at": "2025-10-20T20:07:07.522Z"
+    },
+    {
+      "id": 19,
+      "user_id": null,
+      "type": "maintenance_required",
+      "message": "Perawatan rutin diperlukan untuk pintu Tika Susanto",
+      "read": true,
+      "created_at": "2025-10-20T18:20:00.961Z"
+    },
+    {
+      "id": 24,
+      "user_id": null,
+      "type": "camera_offline",
+      "message": "Kamera pintu Hafiz Atama Romadhoni tidak terhubung",
+      "read": true,
+      "created_at": "2025-10-19T22:15:32.843Z"
+    },
+    {
+      "id": 2,
+      "user_id": 3,
+      "type": "access_denied",
+      "message": "Akses ditolak untuk Rizki Santoso di pintu Pintu Ruang Dosen",
+      "read": true,
+      "created_at": "2025-10-19T20:21:23.356Z"
+    },
+    {
+      "id": 17,
+      "user_id": null,
+      "type": "camera_offline",
+      "message": "Kamera pintu Laila Setiawan tidak terhubung",
+      "read": true,
+      "created_at": "2025-10-19T18:05:12.295Z"
+    },
+    {
+      "id": 11,
+      "user_id": null,
+      "type": "camera_offline",
+      "message": "Kamera pintu Hafiz Atama Romadhoni tidak terhubung",
+      "read": true,
+      "created_at": "2025-10-19T13:36:40.574Z"
+    },
+    {
+      "id": 8,
+      "user_id": null,
+      "type": "camera_offline",
+      "message": "Kamera pintu Yoga Suryanto tidak terhubung",
+      "read": true,
+      "created_at": "2025-10-18T21:14:37.552Z"
+    },
+    {
+      "id": 6,
+      "user_id": 4,
+      "type": "access_granted",
+      "message": "Vera Rahayu berhasil membuka pintu Pintu Ruang Dosen",
+      "read": true,
+      "created_at": "2025-10-18T17:40:02.843Z"
+    },
+    {
+      "id": 5,
+      "user_id": null,
+      "type": "system_update",
+      "message": "Pembaruan sistem tersedia untuk pintu Tika Susanto",
+      "read": false,
+      "created_at": "2025-10-18T09:51:18.702Z"
+    },
+    {
+      "id": 1,
+      "user_id": null,
+      "type": "camera_offline",
+      "message": "Kamera pintu Hafiz Atama Romadhoni tidak terhubung",
+      "read": true,
+      "created_at": "2025-10-18T08:31:40.830Z"
+    },
+    {
+      "id": 21,
+      "user_id": 11,
+      "type": "access_granted",
+      "message": "Zaki Lestari berhasil membuka pintu Pintu Ruang Kelas 2",
+      "read": true,
+      "created_at": "2025-10-17T19:51:01.511Z"
+    },
+    {
+      "id": 23,
+      "user_id": 13,
+      "type": "access_granted",
+      "message": "Nurul Handoko berhasil membuka pintu Pintu Ruang Kelas 1",
+      "read": true,
+      "created_at": "2025-10-17T13:58:07.081Z"
+    },
+    {
+      "id": 15,
+      "user_id": null,
+      "type": "system_update",
+      "message": "Pembaruan sistem tersedia untuk pintu Sinta Suryanto",
+      "read": false,
+      "created_at": "2025-10-17T11:23:10.688Z"
+    },
+    {
+      "id": 3,
+      "user_id": 7,
+      "type": "access_granted",
+      "message": "Tika Susanto berhasil membuka pintu Pintu Kantin",
+      "read": true,
+      "created_at": "2025-10-17T08:15:00.335Z"
+    },
+    {
+      "id": 16,
+      "user_id": null,
+      "type": "system_update",
+      "message": "Pembaruan sistem tersedia untuk pintu Vera Rahayu",
+      "read": false,
+      "created_at": "2025-10-16T17:34:58.944Z"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "type": "access_denied",
+      "message": "Akses ditolak untuk Vera Rahayu di pintu Pintu Ruang Kelas 1",
+      "read": true,
+      "created_at": "2025-10-16T15:31:46.454Z"
+    }
+  ],
+  "cameraCaptures": [
+    {
+      "id": 8,
+      "door_id": 4,
+      "filename": "capture_pintu_ruang_kelas_2_2025-10-23T15-16-41-391Z_8.jpg",
+      "timestamp": "2025-10-22T22:21:06.234Z",
+      "event_type": "motion_detected",
+      "file_size": 293847
+    },
+    {
+      "id": 26,
+      "door_id": 9,
+      "filename": "capture_pintu_perpustakaan_2025-10-23T15-16-41-392Z_26.jpg",
+      "timestamp": "2025-10-22T14:33:57.553Z",
+      "event_type": "manual_capture",
+      "file_size": 298526
+    },
+    {
+      "id": 29,
+      "door_id": 7,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-392Z_29.jpg",
+      "timestamp": "2025-10-22T10:50:23.874Z",
+      "event_type": "face_scan",
+      "file_size": 175473
+    },
+    {
+      "id": 40,
+      "door_id": 9,
+      "filename": "capture_pintu_perpustakaan_2025-10-23T15-16-41-392Z_40.jpg",
+      "timestamp": "2025-10-22T04:18:02.938Z",
+      "event_type": "manual_capture",
+      "file_size": 839451
+    },
+    {
+      "id": 2,
+      "door_id": 1,
+      "filename": "capture_pintu_workshop_1_2025-10-23T15-16-41-391Z_2.jpg",
+      "timestamp": "2025-10-21T12:13:41.502Z",
+      "event_type": "motion_detected",
+      "file_size": 545865
+    },
+    {
+      "id": 17,
+      "door_id": 10,
+      "filename": "capture_pintu_ruang_dosen_2025-10-23T15-16-41-392Z_17.jpg",
+      "timestamp": "2025-10-21T12:12:38.793Z",
+      "event_type": "manual_capture",
+      "file_size": 511910
+    },
+    {
+      "id": 24,
+      "door_id": 2,
+      "filename": "capture_pintu_ruang_kelas_1_2025-10-23T15-16-41-392Z_24.jpg",
+      "timestamp": "2025-10-21T08:43:24.788Z",
+      "event_type": "motion_detected",
+      "file_size": 368411
+    },
+    {
+      "id": 3,
+      "door_id": 1,
+      "filename": "capture_pintu_workshop_1_2025-10-23T15-16-41-391Z_3.jpg",
+      "timestamp": "2025-10-20T12:01:03.565Z",
+      "event_type": "motion_detected",
+      "file_size": 107709
+    },
+    {
+      "id": 30,
+      "door_id": 4,
+      "filename": "capture_pintu_ruang_kelas_2_2025-10-23T15-16-41-392Z_30.jpg",
+      "timestamp": "2025-10-20T06:42:28.627Z",
+      "event_type": "manual_capture",
+      "file_size": 542891
+    },
+    {
+      "id": 31,
+      "door_id": 6,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-392Z_31.jpg",
+      "timestamp": "2025-10-20T06:11:00.547Z",
+      "event_type": "motion_detected",
+      "file_size": 310165
+    },
+    {
+      "id": 34,
+      "door_id": 3,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-392Z_34.jpg",
+      "timestamp": "2025-10-20T05:13:03.115Z",
+      "event_type": "motion_detected",
+      "file_size": 413134
+    },
+    {
+      "id": 9,
+      "door_id": 6,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-392Z_9.jpg",
+      "timestamp": "2025-10-20T04:57:05.657Z",
+      "event_type": "manual_capture",
+      "file_size": 869569
+    },
+    {
+      "id": 22,
+      "door_id": 2,
+      "filename": "capture_pintu_ruang_kelas_1_2025-10-23T15-16-41-392Z_22.jpg",
+      "timestamp": "2025-10-20T02:54:33.668Z",
+      "event_type": "face_scan",
+      "file_size": 430715
+    },
+    {
+      "id": 37,
+      "door_id": 6,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-392Z_37.jpg",
+      "timestamp": "2025-10-19T03:52:04.067Z",
+      "event_type": "access_attempt",
+      "file_size": 540315
+    },
+    {
+      "id": 28,
+      "door_id": 4,
+      "filename": "capture_pintu_ruang_kelas_2_2025-10-23T15-16-41-392Z_28.jpg",
+      "timestamp": "2025-10-18T23:18:11.283Z",
+      "event_type": "access_attempt",
+      "file_size": 664202
+    },
+    {
+      "id": 19,
+      "door_id": 8,
+      "filename": "capture_pintu_ruang_kelas_1_2025-10-23T15-16-41-392Z_19.jpg",
+      "timestamp": "2025-10-18T16:11:27.524Z",
+      "event_type": "manual_capture",
+      "file_size": 471928
+    },
+    {
+      "id": 25,
+      "door_id": 7,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-392Z_25.jpg",
+      "timestamp": "2025-10-18T01:50:48.218Z",
+      "event_type": "manual_capture",
+      "file_size": 685999
+    },
+    {
+      "id": 15,
+      "door_id": 5,
+      "filename": "capture_pintu_ruang_administrasi_2025-10-23T15-16-41-392Z_15.jpg",
+      "timestamp": "2025-10-17T21:51:30.279Z",
+      "event_type": "access_attempt",
+      "file_size": 191326
+    },
+    {
+      "id": 38,
+      "door_id": 9,
+      "filename": "capture_pintu_perpustakaan_2025-10-23T15-16-41-392Z_38.jpg",
+      "timestamp": "2025-10-17T20:49:52.517Z",
+      "event_type": "access_attempt",
+      "file_size": 924383
+    },
+    {
+      "id": 20,
+      "door_id": 2,
+      "filename": "capture_pintu_ruang_kelas_1_2025-10-23T15-16-41-392Z_20.jpg",
+      "timestamp": "2025-10-17T02:25:57.286Z",
+      "event_type": "manual_capture",
+      "file_size": 607871
+    },
+    {
+      "id": 32,
+      "door_id": 4,
+      "filename": "capture_pintu_ruang_kelas_2_2025-10-23T15-16-41-392Z_32.jpg",
+      "timestamp": "2025-10-17T01:11:49.258Z",
+      "event_type": "motion_detected",
+      "file_size": 299037
+    },
+    {
+      "id": 14,
+      "door_id": 7,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-392Z_14.jpg",
+      "timestamp": "2025-10-16T10:31:21.508Z",
+      "event_type": "manual_capture",
+      "file_size": 244558
+    },
+    {
+      "id": 36,
+      "door_id": 6,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-392Z_36.jpg",
+      "timestamp": "2025-10-15T21:54:16.011Z",
+      "event_type": "manual_capture",
+      "file_size": 566091
+    },
+    {
+      "id": 16,
+      "door_id": 5,
+      "filename": "capture_pintu_ruang_administrasi_2025-10-23T15-16-41-392Z_16.jpg",
+      "timestamp": "2025-10-15T19:29:14.470Z",
+      "event_type": "face_scan",
+      "file_size": 888862
+    },
+    {
+      "id": 13,
+      "door_id": 8,
+      "filename": "capture_pintu_ruang_kelas_1_2025-10-23T15-16-41-392Z_13.jpg",
+      "timestamp": "2025-10-15T11:28:26.710Z",
+      "event_type": "manual_capture",
+      "file_size": 119554
+    },
+    {
+      "id": 6,
+      "door_id": 6,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-391Z_6.jpg",
+      "timestamp": "2025-10-15T11:00:38.702Z",
+      "event_type": "motion_detected",
+      "file_size": 487618
+    },
+    {
+      "id": 11,
+      "door_id": 2,
+      "filename": "capture_pintu_ruang_kelas_1_2025-10-23T15-16-41-392Z_11.jpg",
+      "timestamp": "2025-10-14T16:44:17.175Z",
+      "event_type": "access_attempt",
+      "file_size": 928632
+    },
+    {
+      "id": 18,
+      "door_id": 3,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-392Z_18.jpg",
+      "timestamp": "2025-10-14T11:04:38.667Z",
+      "event_type": "face_scan",
+      "file_size": 850951
+    },
+    {
+      "id": 27,
+      "door_id": 7,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-392Z_27.jpg",
+      "timestamp": "2025-10-13T22:53:43.215Z",
+      "event_type": "access_attempt",
+      "file_size": 301784
+    },
+    {
+      "id": 4,
+      "door_id": 8,
+      "filename": "capture_pintu_ruang_kelas_1_2025-10-23T15-16-41-391Z_4.jpg",
+      "timestamp": "2025-10-13T20:54:02.016Z",
+      "event_type": "face_scan",
+      "file_size": 201101
+    },
+    {
+      "id": 1,
+      "door_id": 8,
+      "filename": "capture_pintu_ruang_kelas_1_2025-10-23T15-16-41-391Z_1.jpg",
+      "timestamp": "2025-10-13T06:05:31.007Z",
+      "event_type": "manual_capture",
+      "file_size": 807929
+    },
+    {
+      "id": 23,
+      "door_id": 1,
+      "filename": "capture_pintu_workshop_1_2025-10-23T15-16-41-392Z_23.jpg",
+      "timestamp": "2025-10-12T20:25:06.949Z",
+      "event_type": "face_scan",
+      "file_size": 578037
+    },
+    {
+      "id": 39,
+      "door_id": 1,
+      "filename": "capture_pintu_workshop_1_2025-10-23T15-16-41-392Z_39.jpg",
+      "timestamp": "2025-10-12T10:02:41.225Z",
+      "event_type": "access_attempt",
+      "file_size": 694140
+    },
+    {
+      "id": 12,
+      "door_id": 2,
+      "filename": "capture_pintu_ruang_kelas_1_2025-10-23T15-16-41-392Z_12.jpg",
+      "timestamp": "2025-10-12T08:36:22.612Z",
+      "event_type": "motion_detected",
+      "file_size": 149388
+    },
+    {
+      "id": 10,
+      "door_id": 9,
+      "filename": "capture_pintu_perpustakaan_2025-10-23T15-16-41-392Z_10.jpg",
+      "timestamp": "2025-10-12T04:07:16.814Z",
+      "event_type": "face_scan",
+      "file_size": 695658
+    },
+    {
+      "id": 33,
+      "door_id": 2,
+      "filename": "capture_pintu_ruang_kelas_1_2025-10-23T15-16-41-392Z_33.jpg",
+      "timestamp": "2025-10-10T20:38:04.341Z",
+      "event_type": "motion_detected",
+      "file_size": 178069
+    },
+    {
+      "id": 21,
+      "door_id": 5,
+      "filename": "capture_pintu_ruang_administrasi_2025-10-23T15-16-41-392Z_21.jpg",
+      "timestamp": "2025-10-10T15:36:04.819Z",
+      "event_type": "face_scan",
+      "file_size": 794260
+    },
+    {
+      "id": 35,
+      "door_id": 1,
+      "filename": "capture_pintu_workshop_1_2025-10-23T15-16-41-392Z_35.jpg",
+      "timestamp": "2025-10-10T15:32:09.106Z",
+      "event_type": "manual_capture",
+      "file_size": 604296
+    },
+    {
+      "id": 5,
+      "door_id": 6,
+      "filename": "capture_pintu_kantin_2025-10-23T15-16-41-391Z_5.jpg",
+      "timestamp": "2025-10-10T01:17:07.610Z",
+      "event_type": "motion_detected",
+      "file_size": 362145
+    },
+    {
+      "id": 7,
+      "door_id": 4,
+      "filename": "capture_pintu_ruang_kelas_2_2025-10-23T15-16-41-391Z_7.jpg",
+      "timestamp": "2025-10-09T21:22:10.691Z",
+      "event_type": "motion_detected",
+      "file_size": 899712
+    }
+  ],
+  "lastUpdated": "2025-10-23T15:16:41.403Z"
+}

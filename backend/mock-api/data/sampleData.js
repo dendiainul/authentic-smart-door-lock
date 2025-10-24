@@ -53,8 +53,8 @@ const generateUsers = (count = 10) => {
   return users;
 };
 
-// Generate access logs
-const generateAccessLogs = (users, doors, count = 50) => {
+// Generate access logs with simple format (no nested data)
+const generateAccessLogs = (users, doors, cameraCaptures, count = 5) => {
   const logs = [];
   const actions = ['buka', 'tutup'];
   const methods = ['face_recognition', 'mobile_app'];
@@ -63,6 +63,8 @@ const generateAccessLogs = (users, doors, count = 50) => {
     const user = users[Math.floor(Math.random() * users.length)];
     const door = doors[Math.floor(Math.random() * doors.length)];
     const action = actions[Math.floor(Math.random() * actions.length)];
+    const hasCameraCapture = Math.random() > 0.3; // 70% have camera capture
+    const cameraCapture = hasCameraCapture ? cameraCaptures[Math.floor(Math.random() * cameraCaptures.length)] : null;
 
     logs.push({
       id: i + 1,
@@ -73,7 +75,7 @@ const generateAccessLogs = (users, doors, count = 50) => {
       success: Math.random() > 0.1, // 90% true, 10% false
       method: methods[Math.floor(Math.random() * methods.length)],
       ip_address: faker.internet.ip(),
-      camera_capture_id: Math.random() > 0.3 ? Math.floor(Math.random() * 40) + 1 : null, // 70% have camera capture, 30% null
+      camera_capture_id: cameraCapture ? cameraCapture.id : null
     });
   }
 
@@ -81,6 +83,18 @@ const generateAccessLogs = (users, doors, count = 50) => {
 };
 
 const generateDoors = (count = 10) => {
+  // Use the existing sample-data.json data instead of generating random data
+  const dataPath = path.join(__dirname, 'sample-data.json');
+  
+  if (fs.existsSync(dataPath)) {
+    const existingData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    if (existingData.doors && existingData.doors.length > 0) {
+      console.log('📂 Using existing doors data from sample-data.json');
+      return existingData.doors;
+    }
+  }
+
+  // Fallback to generating doors if no existing data
   const doors = [];
 
   // Nama pintu seperti kampus
@@ -222,10 +236,10 @@ const initializeSampleData = () => {
 
   const users = generateUsers(15);
   const doors = generateDoors(10); 
-  const accessLogs = generateAccessLogs(users, doors, 100);
+  const cameraCaptures = generateCameraCaptures(users, doors, 40);
+  const accessLogs = generateAccessLogs(users, doors, cameraCaptures, 100); // Generate 100 access logs
   const userDoor = generateUserDoorAccess(users, doors); // Generate user-door relationships
   const notifications = generateNotifications(users, doors, 25);
-  const cameraCaptures = generateCameraCaptures(users, doors, 40);
 
   const data = {
     users,
@@ -262,6 +276,100 @@ const loadSampleData = () => {
 };
 
 // Export functions
+// Function to update door status in sample-data.json
+const updateDoorStatus = (doorId, newStatus, userId) => {
+  try {
+    const filePath = path.join(__dirname, 'sample-data.json');
+    console.log(`📁 Reading file: ${filePath}`);
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    console.log(`📊 Found ${data.doors.length} doors in data`);
+    
+    // Find and update the door
+    const doorIndex = data.doors.findIndex(door => door.id === parseInt(doorId));
+    console.log(`🔍 Looking for door ID ${doorId}, found at index: ${doorIndex}`);
+    if (doorIndex !== -1) {
+      const oldStatus = data.doors[doorIndex].locked;
+      data.doors[doorIndex].locked = newStatus === 'kunci';
+      data.doors[doorIndex].last_update = new Date().toISOString();
+      console.log(`🔄 Door ${doorId}: ${oldStatus ? 'LOCKED' : 'UNLOCKED'} → ${data.doors[doorIndex].locked ? 'LOCKED' : 'UNLOCKED'}`);
+      
+      // Find user data for the access log
+      const user = data.users.find(u => u.id === parseInt(userId));
+      if (!user) {
+        console.log(`❌ User with ID ${userId} not found`);
+        return {
+          success: false,
+          error: 'User not found'
+        };
+      }
+
+      // Add access log entry with nested user and door data
+      const newAccessLog = {
+        id: Math.max(...data.accessLogs.map(log => log.id), 0) + 1,
+        user_id: parseInt(userId),
+        door_id: parseInt(doorId),
+        action: newStatus,
+        timestamp: new Date().toISOString(),
+        success: true,
+        method: "mobile_app",
+        ip_address: "192.168.1." + Math.floor(Math.random() * 255),
+        camera_capture_id: null,
+        // Nested user data
+        user: {
+          id: user.id,
+          name: user.name,
+          email: user.email,
+          avatar: user.avatar,
+          role: user.role,
+          face_registered: user.face_registered
+        },
+        // Nested door data
+        door: {
+          id: data.doors[doorIndex].id,
+          name: data.doors[doorIndex].name,
+          location: data.doors[doorIndex].location,
+          locked: data.doors[doorIndex].locked,
+          battery_level: data.doors[doorIndex].battery_level,
+          last_update: data.doors[doorIndex].last_update,
+          wifi_strength: data.doors[doorIndex].wifi_strength,
+          camera_active: data.doors[doorIndex].camera_active
+        },
+        // Nested camera capture data (null for mobile app actions)
+        camera_capture: null
+      };
+      
+      // Add to beginning of access logs array
+      data.accessLogs.unshift(newAccessLog);
+      
+      // Keep only last 1000 access logs to prevent file from growing too large
+      if (data.accessLogs.length > 1000) {
+        data.accessLogs = data.accessLogs.slice(0, 1000);
+      }
+      
+      // Write back to file
+      fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+      console.log(`💾 File updated successfully`);
+      
+      return {
+        success: true,
+        door: data.doors[doorIndex],
+        accessLog: newAccessLog
+      };
+    }
+    
+    return {
+      success: false,
+      error: 'Door not found'
+    };
+  } catch (error) {
+    console.error('Error updating door status:', error);
+    return {
+      success: false,
+      error: error.message
+    };
+  }
+};
+
 module.exports = {
   generateUsers,
   generateDoors,
@@ -271,5 +379,6 @@ module.exports = {
   generateCameraCaptures,
   generateIndonesianName,
   initializeSampleData,
-  loadSampleData
+  loadSampleData,
+  updateDoorStatus
 };

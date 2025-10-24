@@ -10,6 +10,7 @@ const userRoutes = require('./routes/users');
 const cameraRoutes = require('./routes/camera');
 const historyRoutes = require('./routes/history');
 const notificationRoutes = require('./routes/notifications');
+const analyticsRoutes = require('./routes/analytics');
 
 // Import middleware
 const { delayMiddleware, errorHandler } = require('./middleware/common');
@@ -52,6 +53,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/camera', cameraRoutes);
 app.use('/api/history', historyRoutes);
 app.use('/api/notifications', notificationRoutes);
+app.use('/api/analytics', analyticsRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
