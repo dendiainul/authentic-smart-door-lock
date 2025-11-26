@@ -43,12 +43,9 @@ android {
 
 dependencies {
 
+    implementation(project(":authentication"))
+    implementation(project(":dashboard"))
     implementation(project(":storage"))
-
-    // Aktifkan Nanti
-    // implementation(project(":authentication"))
-    // implementation(project(":dashboard"))
-    // implementation(project(":camera"))
 
     // Hilt
     implementation("com.google.dagger:hilt-android:2.56.2")

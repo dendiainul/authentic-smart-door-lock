@@ -21,10 +21,19 @@ router.get('/stream', async (req, res) => {
       });
     }
 
+    const resolvedDoorId = parseInt(door_id, 10);
+
+    // Ambil konfigurasi IP/HOST dan PORT WebRTC dari environment
+    const webrtcHost = process.env.CAMERA_WEBRTC_IP || process.env.CAMERA_WEBRTC_HOST || '172.27.3.163';
+    const webrtcPort = process.env.CAMERA_WEBRTC_PORT || '8889';
+
+    // WebRTC URL: http://ip:port/door_id
+    const webrtcUrl = `http://${webrtcHost}:${webrtcPort}/${resolvedDoorId}`;
+
     // Mock camera stream response
     const streamData = {
-      door_id,
-      stream_url: `rtsp://mock-camera-server.com/stream/${door_id}`,
+      door_id: resolvedDoorId,
+      webrtc_url: webrtcUrl,
       status: 'active',
       resolution: '1920x1080',
       fps: 30,
@@ -61,16 +70,18 @@ router.post('/capture', async (req, res) => {
       });
     }
 
+    const resolvedDoorId = parseInt(door_id, 10);
+
     // Mock camera capture response
     const captureData = {
       id: `capture_${Date.now()}`,
-      door_id,
+      door_id: resolvedDoorId,
       trigger_type,
       image_url: `https://picsum.photos/640/480?random=${Date.now()}`,
       thumbnail_url: `https://picsum.photos/160/120?random=${Date.now()}`,
       timestamp: new Date().toISOString(),
       confidence_score: Math.random() * 0.3 + 0.7, // 70-100% confidence
-      location: `Door ${door_id} Camera`
+      location: `Door ${resolvedDoorId} Camera`
     };
 
     res.json({

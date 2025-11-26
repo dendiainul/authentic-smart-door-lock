@@ -5,7 +5,56 @@ const { loadSampleData, updateDoorStatus } = require('../data/sampleData');
 
 const router = express.Router();
 
-// Apply authentication and random error simulation
+// PUBLIC ENDPOINT FOR DOOR DEVICE - NO AUTH REQUIRED
+// GET /api/door/device/status/:door_id - Get door status for physical door device
+router.get('/device/status/:door_id', async (req, res) => {
+  try {
+    const doorId = parseInt(req.params.door_id);
+    
+    if (!doorId) {
+      return res.status(400).json({
+        success: false,
+        error: 'Invalid door ID',
+        code: 'INVALID_DOOR_ID'
+      });
+    }
+
+    const data = loadSampleData();
+    const door = data.doors.find(d => d.id === doorId);
+    
+    if (!door) {
+      return res.status(404).json({
+        success: false,
+        error: 'Door not found',
+        code: 'DOOR_NOT_FOUND'
+      });
+    }
+
+    // Return simplified status for door device
+    res.json({
+      success: true,
+      data: {
+        door_id: door.id,
+        status: door.locked ? 'terkunci' : 'terbuka',
+        locked: door.locked,
+        battery_level: door.battery_level,
+        last_update: door.last_update
+      },
+      message: 'Door status retrieved successfully'
+    });
+
+  } catch (error) {
+    console.error('Get door device status error:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to get door status',
+      message: error.message,
+      code: 'DOOR_STATUS_ERROR'
+    });
+  }
+});
+
+// Apply authentication and random error simulation for protected routes
 router.use(authenticateToken);
 router.use(randomErrorMiddleware);
 

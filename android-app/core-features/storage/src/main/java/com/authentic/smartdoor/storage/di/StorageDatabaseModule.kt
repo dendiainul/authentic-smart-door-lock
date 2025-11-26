@@ -39,6 +39,15 @@ object StorageDatabaseModule {
     @Provides fun provideNotificationDao(db: AppDatabase): NotificationDao = db.notificationDao()
     @Provides fun provideCameraRecordDao(db: AppDatabase): CameraRecordDao = db.cameraRecordDao()
     @Provides fun provideSystemSettingDao(db: AppDatabase): SystemSettingDao = db.systemSettingDao()
+    
+    @Provides fun provideDashboardLocalDataSource(
+        doorStatusDao: DoorStatusDao,
+        notificationDao: NotificationDao
+    ): com.authentic.smartdoor.storage.local.datasource.DashboardLocalDataSource {
+        return com.authentic.smartdoor.storage.local.datasource.DashboardLocalDataSourceImpl(
+            doorStatusDao, notificationDao
+        )
+    }
 }
 
 

@@ -33,7 +33,7 @@ advanced-features/
 - nicojw
 
 ## Progress Tracking
-- [✅] Setup development environment
+- [ ] Setup development environment
 - [ ] Push notifications implementation
 - [ ] Analytics dashboard development
 - [ ] Web admin panel creation

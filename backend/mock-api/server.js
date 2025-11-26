@@ -26,7 +26,7 @@ const io = socketIo(server, {
 });
 
 // Port configuration
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors());
@@ -47,16 +47,16 @@ app.use((req, res, next) => {
 });
 
 // Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/door', doorRoutes);
-app.use('/api/users', userRoutes);
-app.use('/api/camera', cameraRoutes);
-app.use('/api/history', historyRoutes);
-app.use('/api/notifications', notificationRoutes);
-app.use('/api/analytics', analyticsRoutes);
+app.use('/mock/auth', authRoutes);
+app.use('/mock/door', doorRoutes);
+app.use('/mock/users', userRoutes);
+app.use('/mock/camera', cameraRoutes);
+app.use('/mock/history', historyRoutes);
+app.use('/mock/notifications', notificationRoutes);
+app.use('/mock/analytics', analyticsRoutes);
 
 // Health check endpoint
-app.get('/api/health', (req, res) => {
+app.get('/mock/health', (req, res) => {
   res.json({
     status: 'OK',
     timestamp: new Date().toISOString(),
@@ -109,8 +109,8 @@ setInterval(() => {
 server.listen(PORT, '0.0.0.0', () => {
   console.log(`=� Smart Door Lock Mock API running on port ${PORT}`);
   console.log(`=� Socket.IO enabled for real-time updates`);
-  console.log(`< API Base URL: http://localhost:${PORT}/api`);
-  console.log(`=� Health Check: http://localhost:${PORT}/api/health`);
+  console.log(`< API Base URL: http://localhost:${PORT}/mock`);
+  console.log(`=� Health Check: http://localhost:${PORT}/mock/health`);
 });
 
 module.exports = { app, io };

@@ -29,7 +29,8 @@
             android:name="com.authentic.smartdoor.dashboard.DashboardActivity"
             android:exported="false"
             android:label="Dashboard"
-            android:theme="@style/Theme.SecureDoor" />
+            android:theme="@style/Theme.SecureDoor"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
     </application>
 
 </manifest>

@@ -1,6 +1,7 @@
-   <network-security-config>
-       <domain-config cleartextTrafficPermitted="true">
-<!--           <domain includeSubdomains="true">10.170.15.138</domain>-->
-           <domain includeSubdomains="true">192.168.110.160</domain>
-       </domain-config>
-   </network-security-config>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Server backend -->
+        <!--<domain includeSubdomains="true">pbl311-production.up.railway.app</domain>-->
+        <domain includeSubdomains="true">192.168.122.163</domain>
+    </domain-config>
+</network-security-config>
